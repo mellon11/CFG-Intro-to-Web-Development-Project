@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(206, 251, 249);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+
+
+}
+header{
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+footer{
+    height: 150px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
