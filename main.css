@@ -1,36 +1,81 @@
-body{
-    background-color: rgb(206, 251, 249);
+body {
+    background-color: rgb(229, 250, 232);
     display: flex;
     flex-direction: column;
     margin: 0;
     height: 100vh;
-
-
+    align-items: center;
 }
-header{
+
+header {
     height: 200px;
-    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 100px;
-
-
+    color: rgb(90, 137, 90);
 }
 
-main{
+main {
     display: flex;
     justify-content: center;
-
-
-
 }
 
-footer{
+footer {
     height: 150px;
-    background-color: azure;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 100px;
+    flex-direction: column;
+}
+
+.footer-text {
+    font-size: 2.5em;
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+nav {
+    margin-bottom: 2em;
+    width: 30%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.fa-facebook {
+    background-color: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background-color: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background-color: #125688;
+    color: white;
 }
