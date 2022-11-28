@@ -53,3 +53,23 @@ h1 {
   flex: 33.33%;
   padding: 5px;
 }
+
+
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+nav {
+  margin-bottom: 2em;
+  width: 30%;
+  margin: 0 auto;
+}
