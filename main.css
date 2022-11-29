@@ -7,18 +7,28 @@ body {
     align-items: center;
 }
 
-header {
-    height: 200px;
+.header {
+    min-height: 200px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 100px;
-    color: rgb(90, 137, 90);
+    background-color: rgb(90, 137, 90);
+    width: 100%;
 }
 
-main {
+.header-title {
+    color:  rgb(229, 250, 232);
+    text-align: center;
+    font-size: 80px;
+    margin: 0 auto;
+}
+
+.home-content {
     display: flex;
     justify-content: center;
+    margin-top: 120px;
+
 }
 
 footer {
@@ -41,14 +51,19 @@ nav ul {
     justify-content: space-evenly;
 }
 
-nav a {
-    text-decoration: none;
-    font-size: 1.5em;
+nav {
+    width: 30%;
 }
 
-nav {
-    margin-bottom: 2em;
-    width: 30%;
+.nav-link:visited {
+    color: rgb(229, 250, 232);
+
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.5em;  
+    color: rgb(229, 250, 232); 
 }
 
 .fa:hover {
@@ -79,3 +94,26 @@ nav {
     background-color: #125688;
     color: white;
 }
+
+.contact-us-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.subheading {
+    color: rgb(90, 137, 90);
+    }
+
+.the-science-content {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+  }
+  
