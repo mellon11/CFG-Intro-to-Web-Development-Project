@@ -5,6 +5,8 @@ body {
     margin: 0;
     height: 100vh;
     align-items: center;
+    font-family: 'PT Sans';
+
 }
 
 .header {
@@ -33,6 +35,8 @@ body {
 
 #image-figure {
     text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 footer {
@@ -41,6 +45,8 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 50px 0;
+    width: 100%;
 }
 
 .footer-text {
@@ -73,8 +79,8 @@ nav {
     opacity: 0.7;
 }
 
-.fa-brands {
-    padding: 20px;
+.icon {
+    padding: 10px;
     font-size: 30px;
     width: 30px;
     text-align: center;
